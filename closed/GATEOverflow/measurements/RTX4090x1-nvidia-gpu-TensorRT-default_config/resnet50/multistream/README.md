@@ -2,9 +2,9 @@
 
 ## Host platform
 
-* OS version: Linux-6.8.0-52-generic-x86_64-with-glibc2.29
+* OS version: Linux-6.8.0-53-generic-x86_64-with-glibc2.29
 * CPU version: x86_64
-* Python version: 3.8.10 (default, Jan 17 2025, 14:40:23) 
+* Python version: 3.8.10 (default, Feb  4 2025, 15:02:54) 
 [GCC 9.4.0]
 * MLC version: unknown
 
@@ -17,7 +17,7 @@ pip install -U mlcflow
 
 mlc rm cache -f
 
-mlc pull repo mlcommons@mlperf-automations --checkout=7d8a48d9405cdf4d090ce7bcab64e7e1dd3e18ff
+mlc pull repo mlcommons@mlperf-automations --checkout=c8cb2c378fcc84d44fe20a81ef24956bc93dffc0
 
 
 ```
@@ -41,4 +41,4 @@ Model Precision: int8
 `acc`: `76.064`, Required accuracy for closed division `>= 75.6954`
 
 ### Performance Results 
-`Samples per query`: `455370.0`
+`Samples per query`: `469434.0`

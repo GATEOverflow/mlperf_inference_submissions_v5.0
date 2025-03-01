@@ -4,38 +4,38 @@ MLPerf Results Summary
 SUT name : LWIS_Server
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90th percentile latency (ns) : 282528
+90th percentile latency (ns) : 278045
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (2130455).
- * Would discard 212025 highest latency queries.
- * Early stopping 90th percentile estimate: 282538
- * Early stopping 99th percentile estimate: 287538
+ * Processed at least 64 queries (2146026).
+ * Would discard 213579 highest latency queries.
+ * Early stopping 90th percentile estimate: 278049
+ * Early stopping 99th percentile estimate: 280637
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 3550.76
-QPS w/o loadgen overhead        : 3604.80
+QPS w/ loadgen overhead         : 3576.71
+QPS w/o loadgen overhead        : 3607.07
 
-Min latency (ns)                : 267409
-Max latency (ns)                : 949444
-Mean latency (ns)               : 277408
-50.00 percentile latency (ns)   : 276406
-90.00 percentile latency (ns)   : 282528
-95.00 percentile latency (ns)   : 284041
-97.00 percentile latency (ns)   : 284902
-99.00 percentile latency (ns)   : 287507
-99.90 percentile latency (ns)   : 298808
+Min latency (ns)                : 270125
+Max latency (ns)                : 1266809
+Mean latency (ns)               : 277233
+50.00 percentile latency (ns)   : 276959
+90.00 percentile latency (ns)   : 278045
+95.00 percentile latency (ns)   : 278535
+97.00 percentile latency (ns)   : 278979
+99.00 percentile latency (ns)   : 280588
+99.90 percentile latency (ns)   : 327301
 
 ================================================
 Test Parameters Used
 ================================================
 samples_per_query : 1
-target_qps : 9028.11
+target_qps : 9033.26
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000
