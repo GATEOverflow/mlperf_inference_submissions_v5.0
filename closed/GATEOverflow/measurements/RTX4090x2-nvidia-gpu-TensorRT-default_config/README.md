@@ -1,6 +1,4 @@
 | Model     | Scenario     |   Accuracy |   Throughput | Latency (in ms)   | Power Efficiency (in samples/J)   | TEST01   |
 |-----------|--------------|------------|--------------|-------------------|-----------------------------------|----------|
-| retinanet | multistream  |     37.33  |     1423.74  | 5.619             |                                   | passed   |
-| retinanet | singlestream |     37.343 |      581.058 | 1.721             |                                   | passed   |
-| retinanet | server       |     37.364 |     1414.96  | -                 |                                   | passed   |
-| retinanet | offline      |     37.363 |     1741.05  | -                 |                                   | passed   |
+| bert-99.9 | singlestream |    90.8811 |      460.617 | 2.171             |                                   | passed   |
+| bert-99.9 | offline      |    90.8807 |     3383.82  | -                 |                                   | passed   |
