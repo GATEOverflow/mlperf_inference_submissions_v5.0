@@ -11,7 +11,6 @@
     "contourpy": "1.1.1",
     "cycler": "0.12.1",
     "dm-tree": "0.1.8",
-    "dmiparser": "5.1",
     "filelock": "3.16.1",
     "fonttools": "4.56.0",
     "fsspec": "2025.2.0",

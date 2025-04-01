@@ -17,7 +17,7 @@ pip install -U mlcflow
 
 mlc rm cache -f
 
-mlc pull repo mlcommons@mlperf-automations --checkout=c8cb2c378fcc84d44fe20a81ef24956bc93dffc0
+mlc pull repo mlcommons@mlperf-automations --checkout=3b934374c23ab8a6b28da924e1ceacfe02b6c46c
 
 
 ```
@@ -38,7 +38,7 @@ Platform: RTX4090x2-nvidia-gpu-TensorRT-default_config
 Model Precision: int8
 
 ### Accuracy Results 
-`mAP`: `37.351`, Required accuracy for closed division `>= 37.1745`
+`mAP`: `37.33`, Required accuracy for closed division `>= 37.1745`
 
 ### Performance Results 
-`Samples per query`: `5650774.0`
+`Samples per query`: `5619381.0`
