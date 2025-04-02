@@ -4,43 +4,43 @@ MLPerf Results Summary
 SUT name : Server_3DUNet
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90th percentile latency (ns) : 432803437
+90th percentile latency (ns) : 436917998
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (6020).
- * Would discard 546 highest latency queries.
- * Early stopping 90th percentile estimate: 432946321
- * Early stopping 99th percentile estimate: 498072137
+ * Processed at least 64 queries (5934).
+ * Would discard 538 highest latency queries.
+ * Early stopping 90th percentile estimate: 437070608
+ * Early stopping 99th percentile estimate: 503001177
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 4.49
-QPS w/o loadgen overhead        : 4.49
+QPS w/ loadgen overhead         : 4.44
+QPS w/o loadgen overhead        : 4.45
 
-Min latency (ns)                : 28184208
-Max latency (ns)                : 512146059
-Mean latency (ns)               : 222630010
-50.00 percentile latency (ns)   : 173765449
-90.00 percentile latency (ns)   : 432803437
-95.00 percentile latency (ns)   : 497554224
-97.00 percentile latency (ns)   : 497762649
-99.00 percentile latency (ns)   : 498027904
-99.90 percentile latency (ns)   : 499014385
+Min latency (ns)                : 28767591
+Max latency (ns)                : 514474226
+Mean latency (ns)               : 224911820
+50.00 percentile latency (ns)   : 175666545
+90.00 percentile latency (ns)   : 436917998
+95.00 percentile latency (ns)   : 502282590
+97.00 percentile latency (ns)   : 502510820
+99.00 percentile latency (ns)   : 502874126
+99.90 percentile latency (ns)   : 503540960
 
 ================================================
 Test Parameters Used
 ================================================
 samples_per_query : 1
-target_qps : 4.99312
+target_qps : 4.94214
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000
 max_duration (ms): 0
-min_query_count : 6020
+min_query_count : 5934
 max_query_count : 0
 qsl_rng_seed : 6023615788873153749
 sample_index_rng_seed : 15036839855038426416
