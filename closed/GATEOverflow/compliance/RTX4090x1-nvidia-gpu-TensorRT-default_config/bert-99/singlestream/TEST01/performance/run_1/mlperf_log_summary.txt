@@ -4,38 +4,38 @@ MLPerf Results Summary
 SUT name : BERT SERVER
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90th percentile latency (ns) : 1035174
+90th percentile latency (ns) : 1042321
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
   Early stopping satisfied: Yes
 Early Stopping Result:
- * Processed at least 64 queries (631722).
- * Would discard 62616 highest latency queries.
- * Early stopping 90th percentile estimate: 1035391
- * Early stopping 99th percentile estimate: 1215690
+ * Processed at least 64 queries (630000).
+ * Would discard 62445 highest latency queries.
+ * Early stopping 90th percentile estimate: 1042401
+ * Early stopping 99th percentile estimate: 1223928
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 1052.87
-QPS w/o loadgen overhead        : 1055.25
+QPS w/ loadgen overhead         : 1050.00
+QPS w/o loadgen overhead        : 1052.52
 
-Min latency (ns)                : 854056
-Max latency (ns)                : 1297302
-Mean latency (ns)               : 947646
-50.00 percentile latency (ns)   : 927694
-90.00 percentile latency (ns)   : 1035174
-95.00 percentile latency (ns)   : 1124752
-97.00 percentile latency (ns)   : 1199119
-99.00 percentile latency (ns)   : 1215652
-99.90 percentile latency (ns)   : 1229739
+Min latency (ns)                : 870319
+Max latency (ns)                : 1968395
+Mean latency (ns)               : 950101
+50.00 percentile latency (ns)   : 928118
+90.00 percentile latency (ns)   : 1042321
+95.00 percentile latency (ns)   : 1141931
+97.00 percentile latency (ns)   : 1209425
+99.00 percentile latency (ns)   : 1223868
+99.90 percentile latency (ns)   : 1235166
 
 ================================================
 Test Parameters Used
 ================================================
 samples_per_query : 1
-target_qps : 2641.12
+target_qps : 2633.01
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000
