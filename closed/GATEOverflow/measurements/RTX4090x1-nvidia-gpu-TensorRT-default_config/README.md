@@ -1,4 +1,6 @@
-| Model        | Scenario     |   Accuracy |   Throughput | Latency (in ms)   | Power Efficiency (in samples/J)   | TEST01   |
-|--------------|--------------|------------|--------------|-------------------|-----------------------------------|----------|
-| 3d-unet-99.9 | offline      |    0.86236 |        4.13  | -                 |                                   | passed   |
-| 3d-unet-99.9 | singlestream |    0.86236 |        2.283 | 437.936           |                                   | passed   |
+| Model     | Scenario     |   Accuracy |   Throughput | Latency (in ms)   | Power Efficiency (in samples/J)   | TEST01   |
+|-----------|--------------|------------|--------------|-------------------|-----------------------------------|----------|
+| retinanet | server       |     37.351 |      637.534 | -                 |                                   | passed   |
+| retinanet | multistream  |     37.304 |      733.407 | 10.908            |                                   | passed   |
+| retinanet | offline      |     37.305 |      862.035 | -                 |                                   | passed   |
+| retinanet | singlestream |     37.338 |      570.125 | 1.754             |                                   | passed   |
