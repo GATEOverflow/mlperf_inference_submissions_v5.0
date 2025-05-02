@@ -4,7 +4,7 @@ MLPerf Results Summary
 SUT name : Server_3DUNet
 Scenario : SingleStream
 Mode     : PerformanceOnly
-90th percentile latency (ns) : 436917998
+90th percentile latency (ns) : 438111926
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
@@ -12,30 +12,30 @@ Result is : VALID
 Early Stopping Result:
  * Processed at least 64 queries (5934).
  * Would discard 538 highest latency queries.
- * Early stopping 90th percentile estimate: 437070608
- * Early stopping 99th percentile estimate: 503001177
+ * Early stopping 90th percentile estimate: 438304240
+ * Early stopping 99th percentile estimate: 504327018
 
 ================================================
 Additional Stats
 ================================================
-QPS w/ loadgen overhead         : 4.44
-QPS w/o loadgen overhead        : 4.45
+QPS w/ loadgen overhead         : 4.43
+QPS w/o loadgen overhead        : 4.43
 
-Min latency (ns)                : 28767591
-Max latency (ns)                : 514474226
-Mean latency (ns)               : 224911820
-50.00 percentile latency (ns)   : 175666545
-90.00 percentile latency (ns)   : 436917998
-95.00 percentile latency (ns)   : 502282590
-97.00 percentile latency (ns)   : 502510820
-99.00 percentile latency (ns)   : 502874126
-99.90 percentile latency (ns)   : 503540960
+Min latency (ns)                : 28882761
+Max latency (ns)                : 514368406
+Mean latency (ns)               : 225482846
+50.00 percentile latency (ns)   : 176110159
+90.00 percentile latency (ns)   : 438111926
+95.00 percentile latency (ns)   : 503573566
+97.00 percentile latency (ns)   : 503841379
+99.00 percentile latency (ns)   : 504231354
+99.90 percentile latency (ns)   : 504874330
 
 ================================================
 Test Parameters Used
 ================================================
 samples_per_query : 1
-target_qps : 4.94214
+target_qps : 4.93531
 target_latency (ns): 0
 max_async_queries : 1
 min_duration (ms): 600000
