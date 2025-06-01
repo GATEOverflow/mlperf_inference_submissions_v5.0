@@ -2,7 +2,7 @@
 
 ## Host platform
 
-* OS version: Linux-6.8.0-53-generic-x86_64-with-glibc2.29
+* OS version: Linux-6.8.0-60-generic-x86_64-with-glibc2.29
 * CPU version: x86_64
 * Python version: 3.8.10 (default, Feb  4 2025, 15:02:54) 
 [GCC 9.4.0]
@@ -17,7 +17,7 @@ pip install -U mlcflow
 
 mlc rm cache -f
 
-mlc pull repo mlcommons@mlperf-automations --checkout=06b95fa9f0b3e5cedf5295a7b630442b2f9ffac3
+mlc pull repo mlcommons@mlperf-automations --checkout=cc1d43d1d5eeebee7efa08a1aa0f1cc62fcb1560
 
 
 ```
@@ -41,4 +41,4 @@ Model Precision: int8
 `DICE`: `0.86236`, Required accuracy for closed division `>= 0.86084`
 
 ### Performance Results 
-`Samples per second`: `4.13044`
+`Samples per second`: `4.13458`
