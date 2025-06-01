@@ -411,16 +411,6 @@
       }
     },
     {
-      "get,mlcommons,inference,src,_deeplearningexamples": {
-        "script_uid": "4b57186581024797",
-        "script_alias": "get-mlperf-inference-src",
-        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
-        "script_variations": "deeplearningexamples",
-        "version": "r5.0-git-c0b60cdbdaa389c5ff88b12e659fdab650b95948",
-        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
-      }
-    },
-    {
       "get,cache,dir,_name.mlperf-inference-sut-configs": {
         "script_uid": "48f4622e059b45ce",
         "script_alias": "get-cache-dir",
@@ -437,6 +427,16 @@
         "script_tags": "get,mlperf,inference,sut,configs,sut-configs",
         "script_variations": "",
         "version": "",
+        "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
+      }
+    },
+    {
+      "get,mlcommons,inference,src,_deeplearningexamples": {
+        "script_uid": "4b57186581024797",
+        "script_alias": "get-mlperf-inference-src",
+        "script_tags": "get,src,source,inference,inference-src,inference-source,mlperf,mlcommons",
+        "script_variations": "deeplearningexamples",
+        "version": "r5.0-git-c0b60cdbdaa389c5ff88b12e659fdab650b95948",
         "parent": "generate-mlperf-inference-user-conf,3af4475745964b93"
       }
     },

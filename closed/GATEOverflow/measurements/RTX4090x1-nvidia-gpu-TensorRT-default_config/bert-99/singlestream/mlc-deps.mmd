@@ -40,9 +40,9 @@ graph TD
     detect-cpu,586c8a43320142f7 --> detect,os
     generate-mlperf-inference-user-conf,3af4475745964b93 --> detect,cpu
     generate-mlperf-inference-user-conf,3af4475745964b93 --> get,python
-    generate-mlperf-inference-user-conf,3af4475745964b93 --> get,mlcommons,inference,src,_deeplearningexamples
     get-mlperf-inference-sut-configs,c2fbf72009e2445b --> get,cache,dir,_name.mlperf-inference-sut-configs
     generate-mlperf-inference-user-conf,3af4475745964b93 --> get,sut,configs
+    generate-mlperf-inference-user-conf,3af4475745964b93 --> get,mlcommons,inference,src,_deeplearningexamples
     app-mlperf-inference-nvidia,bc3b17fb430f4732_(_run_harness,_tensorrt,_bert-99,_cuda,_singlestream,_rtx_4090_) --> generate,user-conf,mlperf,inference
     get-generic-python-lib,94b62a682bc44791_(_package.pycuda_) --> get,python3
     app-mlperf-inference-nvidia,bc3b17fb430f4732_(_run_harness,_tensorrt,_bert-99,_cuda,_singlestream,_rtx_4090_) --> get,generic-python-lib,_package.pycuda
