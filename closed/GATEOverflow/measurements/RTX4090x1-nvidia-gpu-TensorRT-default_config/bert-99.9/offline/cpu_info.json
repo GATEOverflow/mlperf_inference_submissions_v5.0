@@ -1,6 +1,6 @@
 {
   "MLC_HOST_CPU_WRITE_PROTECT_SUPPORT": "yes",
-  "MLC_HOST_CPU_MICROCODE": "0x12b",
+  "MLC_HOST_CPU_MICROCODE": "0x12c",
   "MLC_HOST_CPU_FPU_SUPPORT": "yes",
   "MLC_HOST_CPU_FPU_EXCEPTION_SUPPORT": "yes",
   "MLC_HOST_CPU_BUGS": "spectre_v1 spectre_v2 spec_store_bypass swapgs eibrs_pbrsb rfds bhi",
