@@ -2,7 +2,7 @@
 
 ## Host platform
 
-* OS version: Linux-6.8.0-53-generic-x86_64-with-glibc2.29
+* OS version: Linux-6.8.0-60-generic-x86_64-with-glibc2.29
 * CPU version: x86_64
 * Python version: 3.8.10 (default, Feb  4 2025, 15:02:54) 
 [GCC 9.4.0]
@@ -17,7 +17,7 @@ pip install -U mlcflow
 
 mlc rm cache -f
 
-mlc pull repo mlcommons@mlperf-automations --checkout=06b95fa9f0b3e5cedf5295a7b630442b2f9ffac3
+mlc pull repo mlcommons@mlperf-automations --checkout=b95d7a8802295c58ca45d3dd73f641f86246a821
 
 
 ```
@@ -38,7 +38,7 @@ Platform: RTX4090x1-nvidia-gpu-TensorRT-default_config
 Model Precision: int8
 
 ### Accuracy Results 
-`mAP`: `37.338`, Required accuracy for closed division `>= 37.1745`
+`mAP`: `37.322`, Required accuracy for closed division `>= 37.1745`
 
 ### Performance Results 
-`90th percentile latency (ns)`: `1754238.0`
+`90th percentile latency (ns)`: `1752434.0`
