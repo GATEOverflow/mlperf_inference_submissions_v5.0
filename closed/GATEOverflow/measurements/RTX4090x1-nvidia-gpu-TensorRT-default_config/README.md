@@ -1,4 +1,6 @@
-| Model   | Scenario     |   Accuracy |   Throughput | Latency (in ms)   | Power Efficiency (in samples/J)   | TEST01   |
-|---------|--------------|------------|--------------|-------------------|-----------------------------------|----------|
-| bert-99 | offline      |    90.1528 |     4098.47  | -                 |                                   | passed   |
-| bert-99 | singlestream |    90.2668 |      966.184 | 1.035             |                                   | passed   |
+| Model    | Scenario     |   Accuracy |   Throughput | Latency (in ms)   | Power Efficiency (in samples/J)   | TEST01   | TEST04   |
+|----------|--------------|------------|--------------|-------------------|-----------------------------------|----------|----------|
+| resnet50 | server       |     76.078 |     35342.5  | -                 |                                   | passed   | passed   |
+| resnet50 | multistream  |     76.064 |     16877.6  | 0.474             |                                   | passed   | passed   |
+| resnet50 | offline      |     76.078 |     43650.6  | -                 |                                   | passed   | passed   |
+| resnet50 | singlestream |     76.064 |      3610.11 | 0.277             |                                   | passed   | passed   |
